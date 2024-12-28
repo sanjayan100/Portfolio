@@ -1,20 +1,21 @@
 import EkartImage from './assests/Ekart.png';
 import Electricity from './assests/Electricity_Billing.png';
-import SpotifyImage from './assests/Spotify.png';
 import IBMSkill from './assests/IBM.png';
-import SysctlImage from './assests/Sysctl.png';
+import ComvivaImage from './assests/Comviva.png';
+import Portfolio from './assests/Portfolio.png';
 
 import { IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin } from "@tabler/icons-react";
+import { title } from 'process';
 const Info = {
     name: "Sanjay Singh",
     stack: ["Software Engineer", "Full Stack Developer","DevOps Engineer", "Freelancer", "Open Source Contributor"],
-    bio: "I'm a passionate software engineer specialized in crafting efficient and scalable solutions, deliver top-notch web applications, and provide freelance services that exceed client expectations. Let's connect and create something amazing together!"
+    bio: "I'm a passionate software engineer and DevOps Engineer specialized in crafting efficient and scalable solutions, delivering top-notch web applications, and providing freelance services that exceed client expectations. I excel in automating and optimizing CI/CD pipelines, managing cloud infrastructure, and ensuring high availability and performance of applications. Let's connect and create something amazing together!"
 }
 
 
 const ProjectInfo = [
     {
-        title: "Ekart E-comm App",
+        title: "Ekart APP",
         desc: "Ekart is a modern, fully responsive e-commerce platform built using React, TailwindCSS, Heroicons, and HeadlessUI, offering a seamless shopping experience across all devices. It features secure user authentication with login, registration, and logout functionalities. Users can add items to a wishlist or remove them, search for specific products, and add them to a shopping cart for purchase. The checkout process includes form validation for address and payment information, ensuring accuracy and security. After purchase, users can view their order history in the Orders section. Ekart combines robust functionality with a sleek, intuitive design, making online shopping effortless and enjoyable.",
         image: EkartImage,
         live: false,
@@ -32,13 +33,13 @@ const ProjectInfo = [
         github: "https://github.com/sanjayan100/Electricity_Billing_System"
     },
     {
-        title: "Spotify Clone",
-        desc: "The Spotify Clone is a music streaming web application built with React, Redux, and Firebase that replicates the Spotify interface and functionality. Users can browse a library of songs, create playlists, and play music. The app features a responsive design, real-time updates, and secure user authentication with Firebase. It leverages Redux for state management, enabling seamless data flow and efficient updates. By emulating the popular Spotify platform, the clone provides an immersive music experience while showcasing frontend development skills.",
-        image: SpotifyImage,
-        live: false,
-        technologies: ["React", "Redux", "Firebase", "MaterialUI"],
+        title: "Portfolio Website",
+        desc: "My portfolio website showcases my projects, skills, and experience as a software engineer. Built with React, TypeScript, and Tailwind CSS, it features a clean, responsive design that highlights my work and expertise. The site includes sections for projects, skills, experience, and social links, providing visitors with an overview of my capabilities and achievements. By leveraging modern web technologies, I created an engaging platform to connect with potential clients, collaborators, and employers. The portfolio website reflects my commitment to quality, innovation, and continuous learning in the field of software development.",
+        image: Portfolio,
+        live: true,
+        technologies: ["React", "TypeScript", "Tailwind CSS", "Firebase"],
         link: "",
-        github: ""
+        github: "https://github.com/sanjayan100/Portfolio"
     }
 ]
 
@@ -55,11 +56,11 @@ const SkillInfo = [
     },
     {
         title: "Languages",
-        skills: ["C", "Java", "JavaScript", "TypeScript"]
+        skills: ["C", "Java","Python", "JavaScript", "TypeScript"]
     },
     {
         title: "Tools",
-        skills: ["Git", "Github", "VS Code", "Postman", "MongoDB Compass", "Spring Tool Suite"]
+        skills: ["Git", "Github", "Docker", "Kubernetes", "Terraform", "VS Code", "Postman", "MongoDB Compass", "Spring Tool Suite"]
     }
 ]
 const socialLinks = [
@@ -72,12 +73,12 @@ const socialLinks = [
 
 const ExperienceInfo = [
     {
-        role: "Software Engineer",
-        company: "Sysctl",
-        image: SysctlImage,
-        date: "Sept 2024 - Present",
-        desc: "I led software development with NodeJS, React, and Express, creating scalable microservices and interfaces. I optimized performance by integrating frontend and backend, and enhanced security with RESTful APIs. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
-        skills: ["React JS", "TypeScript", "Node JS", "Express", "MongoDB", "Restful APIs"]
+        role: "DevOps Engineer",
+        company: "Comviva Technologies",
+        image: ComvivaImage,
+        date: "Oct 2024 - Present",
+        desc: "I led DevOps initiatives with a focus on automating and optimizing CI/CD pipelines using tools like Jenkins and Docker. I implemented infrastructure as code (IaC) with Terraform and managed cloud resources on AWS. By integrating monitoring and logging solutions, I ensured high availability and performance of applications. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
+        skills: ["Jenkins", "Linux", "Docker", "Terraform", "AWS", "Kubernetes", "CI/CD", "Monitoring", "Logging", "Ansible", "Git", "GitHub", "GitLab"]
     },
     {
         role: "Web Developer Intern",
@@ -94,6 +95,7 @@ const Slugs = [
     "javascript",
     "dart",
     "java",
+    "python",
     "react",
     "angular",
     "flutter",
