@@ -1,7 +1,7 @@
 import EkartImage from './assests/Ekart.png';
 import Electricity from './assests/Electricity_Billing.png';
 import IBMSkill from './assests/IBM.png';
-import ComvivaImage from './assests/Comviva.png';
+import YABX from './assests/yabx.png';
 import Portfolio from './assests/Portfolio.png';
 
 import { IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin } from "@tabler/icons-react";
@@ -74,11 +74,11 @@ const socialLinks = [
 const ExperienceInfo = [
     {
         role: "DevOps Engineer",
-        company: "Comviva Technologies",
-        image: ComvivaImage,
+        company: "YABX",
+        image: YABX,
         date: "Oct 2024 - Present",
         desc: "I led DevOps initiatives with a focus on automating and optimizing CI/CD pipelines using tools like Jenkins and Docker. I implemented infrastructure as code (IaC) with Terraform and managed cloud resources on AWS. By integrating monitoring and logging solutions, I ensured high availability and performance of applications. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
-        skills: ["Jenkins", "Linux", "Docker", "Terraform", "AWS", "Kubernetes", "CI/CD", "Monitoring", "Logging", "Ansible", "Git", "GitHub", "GitLab"]
+        skills: ["Jenkins", "Linux", "Docker", "Terraform", "AWS", "CI/CD", "Monitoring", "Logging", "Ansible", "Git", "GitHub", "GitLab"]
     },
     {
         role: "Web Developer Intern",
